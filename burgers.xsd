@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="burger">
+        <xsd:annotation>
+            <xsd:documentation>
+                햄버거의 정보를 나타내는 element이며 버거의 이름, 회사, 설명, 썸네일, 종류(단품/세트) 및 가격, 영양정보 등의 정보가 표시됨.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="name" type="xsd:string" />
+                <xsd:element name="company" type="xsd:string" />
+                <xsd:element name="description" type="xsd:string" />
+                <xsd:element name="thumbnail" type="xsd:anyURI" />
+                <xsd:element name="variants">
+                    <xsd:complexType>
+                        <xsd:choice minOccurs="1" maxOccurs="unbounded">
+                            <xsd:element name="variant">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="price" type="xsd:positiveInteger" />
+                                    </xsd:sequence>
+                                    <xsd:attribute name="name" type="xsd:string" />
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:choice>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="nutrition-facts">
+                    <xsd:annotation>
+                        <xsd:documentation>
+                            햄버거의 영양정보를 나타내는 element이다.
+                            중량, 칼로리, 당, 단백질, 나트륨, 포화지방 정보를 가지고 있으며 공식 홈페이지에서 제공되는 데이터를 가져왔다.
+                        </xsd:documentation>
+                    </xsd:annotation>
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="weight" type="xsd:decimal" />
+                            <xsd:element name="calories" type="xsd:decimal" />
+                            <xsd:element name="sugars" type="xsd:decimal" />
+                            <xsd:element name="protein" type="xsd:decimal" />
+                            <xsd:element name="sodium" type="xsd:decimal" />
+                            <xsd:element name="saturated-fat" type="xsd:decimal" />
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:string" />
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="burgers">
+        <xsd:complexType>
+            <xsd:choice minOccurs="1" maxOccurs="unbounded">
+                <xsd:element ref="burger" />
+            </xsd:choice>
+        </xsd:complexType>
+
+        <xsd:unique name="burgerID">
+            <xsd:selector xpath="burger" />
+            <xsd:field xpath="@id" />
+        </xsd:unique>
+    </xsd:element>
+</xsd:schema>
