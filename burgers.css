@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 32px;
+    margin-top: 240px;
+    margin-bottom: 60px;
+    flex-shrink: 1;
+    min-width: 600px;
+    width: 1320px;
+}
+
+header {
+    height: 260px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.title-main {
+    width: 550px;
+    height: 140px;
+    background-color: #ED7D31;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px;
+}
+
+.title-main > h1,h6 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.title-main > h1 {
+    font-size: 2.2rem;
+}
+
+.title-main > h6 {
+    font-size: 1rem;
+}
+
+.title-sub {
+    width: 360px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #D76213;
+}
+
+.burger-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+    row-gap: 32px;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.burger-card {
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+
+    user-select: none;
+    transition: all 0.25s;
+}
+
+.burger-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 6px 8px rgba(255, 142, 66, 0.1);
+    cursor: pointer;
+}
+
+.burger-card > .thumbnail {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.burger-information {
+    margin-left: 40px;
+    flex: 1;
+}
+
+.burger-information > .title {
+    font-size: 1.8rem;
+    color: #595959;
+    margin: 0;
+    margin-bottom: 0.4rem;
+}
+
+.burger-information > .description {
+    font-size: 1rem;
+    color: #7F7F7F;
+    margin: 0;
+    height: 5rem;
+}
+
+.burger-data {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1rem;
+}
+
+.burger-data > .calories {
+
+}
+
+.burger-data > .variants {
+    margin-left: auto;
+}
