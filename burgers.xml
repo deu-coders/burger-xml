@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="burgers.xsl" type="text/xsl"?>
+
+<burgers
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="burgers.xsd"
+>
+    <burger id="맥도날드/빅맥">
+        <name>빅맥</name>
+        <company>맥도날드</company>
+        <description>
+            100% 순 쇠고기 패티 두 장에 빅맥®만의 특별한 소스.
+            입안에서 살살 녹는 치즈와 신선한 양상추, 양파, 그리고 피클까지.
+            50년 넘게 전 세계인의 입맛을 사로 잡은 버거의 대명사.
+        </description>
+        <thumbnail>맥도날드/빅맥.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>4600</price>
+            </variant>
+            <variant name="세트">
+                <price>5900</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>223</weight>
+            <calories>512</calories>
+            <sugars>7</sugars>
+            <protein>27</protein>
+            <sodium>892</sodium>
+            <saturated-fat>11</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맥도날드/스파이시맥앤치즈버거">
+        <name>스파이시맥앤치즈버거</name>
+        <company>맥도날드</company>
+        <description>
+            체다 치즈 &amp; 그라나파다노 치즈와 매콤한 카이엔페퍼가 들어간 맥앤치즈
+            스파이시한 치킨 패티, 탱글한 마카로니의 완벽한 식감까지
+            느끼하지 않고 매콤하면서도 진한 맛
+        </description>
+        <thumbnail>맥도날드/스파이시맥앤치즈버거.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>6200</price>
+            </variant>
+            <variant name="세트">
+                <price>7500</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>261</weight>
+            <calories>625</calories>
+            <sugars>12</sugars>
+            <protein>26</protein>
+            <sodium>1272</sodium>
+            <saturated-fat>7</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맥도날드/맥스파이시상하이버거">
+        <name>맥스파이시상하이버거</name>
+        <company>맥도날드</company>
+        <description>
+            매콤한 시즈닝을 입힌 100% 닭가슴 통살 위에
+            아삭아삭한 양상추와 신선한 토마토~
+            겉은 바삭, 속은 부드러운 치킨 패티의 매콤함으로
+            입맛도 기분도 화끈하게!
+        </description>
+        <thumbnail>맥도날드/맥스파이시상하이버거.jfif</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>4600</price>
+            </variant>
+            <variant name="세트">
+                <price>5900</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>234</weight>
+            <calories>494</calories>
+            <sugars>9</sugars>
+            <protein>22</protein>
+            <sodium>985</sodium>
+            <saturated-fat>4</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맥도날드/베이컨토마토디럭스">
+        <name>베이컨토마토디럭스</name>
+        <company>맥도날드</company>
+        <description>
+            두 장의 100% 순 쇠고기 패티에 그릴에 구워
+            더욱 고소한 1장의 베이컨을 얹고,
+            신선한 토마토와 양상추,
+            매콤달콤한 스위트 칠리 소스, 치즈, 마요네즈를 더해
+            더욱 풍부하고 신선한 맛의 프리미엄 버거.
+        </description>
+        <thumbnail>맥도날드/베이컨토마토디럭스.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>5500</price>
+            </variant>
+            <variant name="세트">
+                <price>7000</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>242</weight>
+            <calories>519</calories>
+            <sugars>13</sugars>
+            <protein>26</protein>
+            <sodium>1007</sodium>
+            <saturated-fat>11</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맥도날드/맥치킨">
+        <name>맥치킨</name>
+        <company>맥도날드</company>
+        <description>
+            바삭한 치킨 패티, 고소한 화이트 마요 소스와
+            아삭한 양상추가 함께!
+            더 업그레이드된 맛으로 돌아온 맥치킨
+        </description>
+        <thumbnail>맥도날드/맥치킨.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>3300</price>
+            </variant>
+            <variant name="세트">
+                <price>4500</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>197</weight>
+            <calories>480</calories>
+            <sugars>7</sugars>
+            <protein>18</protein>
+            <sodium>1011</sodium>
+            <saturated-fat>3</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="버거킹/콰트로치즈와퍼">
+        <name>콰트로치즈와퍼</name>
+        <company>버거킹</company>
+        <description>
+            진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!
+        </description>
+        <thumbnail>버거킹/콰트로치즈와퍼.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>6800</price>
+            </variant>
+            <variant name="세트">
+                <price>8900</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>309</weight>
+            <calories>769</calories>
+            <sugars>6.2</sugars>
+            <protein>40</protein>
+            <sodium>1051</sodium>
+            <saturated-fat>20</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="버거킹/와퍼주니어">
+        <name>와퍼주니어</name>
+        <company>버거킹</company>
+        <description>
+            불에 직접 구운 순 쇠고기 패티가 들어간 와퍼의 주니어 버전~
+            작지만 꽉 찼다!
+        </description>
+        <thumbnail>버거킹/와퍼주니어.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>4300</price>
+            </variant>
+            <variant name="세트">
+                <price>6300</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>158</weight>
+            <calories>399</calories>
+            <sugars>4.6</sugars>
+            <protein>17</protein>
+            <sodium>570</sodium>
+            <saturated-fat>4.6</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="버거킹/기네스와퍼">
+        <name>기네스와퍼</name>
+        <company>버거킹</company>
+        <description>
+            기네스 번과 기네스 바비큐 소스의 풍미!
+        </description>
+        <thumbnail>버거킹/기네스와퍼.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>8500</price>
+            </variant>
+            <variant name="세트">
+                <price>9500</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>293</weight>
+            <calories>778</calories>
+            <sugars>11.9</sugars>
+            <protein>36</protein>
+            <sodium>1140</sodium>
+            <saturated-fat>14.3</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="버거킹/와퍼">
+        <name>와퍼</name>
+        <company>버거킹</company>
+        <description>
+            불에 직접 구운 순 쇠고기 패티에 싱싱한 야채가 한가득~ 버거킹의 대표 메뉴!
+        </description>
+        <thumbnail>버거킹/와퍼.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>6100</price>
+            </variant>
+            <variant name="세트">
+                <price>8100</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>278</weight>
+            <calories>619</calories>
+            <sugars>10.5</sugars>
+            <protein>29</protein>
+            <sodium>809</sodium>
+            <saturated-fat>13</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맘스터치/싸이버거">
+        <name>싸이버거</name>
+        <company>맘스터치</company>
+        <description>
+            바삭하고 매콤한 치킨 패티와 신선한 양상추가 조화를 이루는 맘스터치 시그니처 버거.
+        </description>
+        <thumbnail>맘스터치/싸이버거.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>3800</price>
+            </variant>
+            <variant name="세트">
+                <price>5800</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>230</weight>
+            <calories>594</calories>
+            <sugars>14</sugars>
+            <protein>28</protein>
+            <sodium>1009</sodium>
+            <saturated-fat>9</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맘스터치/불싸이버거">
+        <name>불싸이버거</name>
+        <company>맘스터치</company>
+        <description>
+            화끈한 불맛이 살아있는 버거, 싸이버거의 매운맛 버전.
+        </description>
+        <thumbnail>맘스터치/불싸이버거.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>3900</price>
+            </variant>
+            <variant name="세트">
+                <price>5900</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>230</weight>
+            <calories>543</calories>
+            <sugars>15</sugars>
+            <protein>28</protein>
+            <sodium>1152</sodium>
+            <saturated-fat>7</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맘스터치/딥치즈버거">
+        <name>딥치즈버거</name>
+        <company>맘스터치</company>
+        <description>
+            부드러운 치즈와 한층 더 촉촉해진 통가슴살 패티가 일품인 버거.
+        </description>
+        <thumbnail>맘스터치/딥치즈버거.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>4000</price>
+            </variant>
+            <variant name="세트">
+                <price>6000</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>281</weight>
+            <calories>605</calories>
+            <sugars>12</sugars>
+            <protein>42</protein>
+            <sodium>1195</sodium>
+            <saturated-fat>10</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맘스터치/언빌리버블버거">
+        <name>언빌리버블버거</name>
+        <company>맘스터치</company>
+        <description>
+            통새우, 에그프라이, 통가슴살 패티에 매콤한 스리라차 마요 소스를 더한 대확행 버거.
+        </description>
+        <thumbnail>맘스터치/언빌리버블버거.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>5100</price>
+            </variant>
+            <variant name="세트">
+                <price>7100</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>338</weight>
+            <calories>721</calories>
+            <sugars>14</sugars>
+            <protein>49</protein>
+            <sodium>1581</sodium>
+            <saturated-fat>8</saturated-fat>
+        </nutrition-facts>
+    </burger>
+    <burger id="맘스터치/불고기버거">
+        <name>불고기버거</name>
+        <company>맘스터치</company>
+        <description>
+            영양 만점 불고기 패티에 고소한 불고기 소스를 더해 한층 더 맛있는 버거.
+        </description>
+        <thumbnail>맘스터치/불고기버거.png</thumbnail>
+        <variants>
+            <variant name="단품">
+                <price>3000</price>
+            </variant>
+            <variant name="세트">
+                <price>5000</price>
+            </variant>
+        </variants>
+        <nutrition-facts>
+            <weight>159</weight>
+            <calories>383</calories>
+            <sugars>12</sugars>
+            <protein>15</protein>
+            <sodium>739</sodium>
+            <saturated-fat>6</saturated-fat>
+        </nutrition-facts>
+    </burger>
+</burgers>

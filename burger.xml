@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="burger.xsl" type="text/xsl"?>
+
+<burger
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="burgers.xsd"
+>
+    <name>빅맥</name>
+    <company>맥도날드</company>
+    <description>
+        100% 순 쇠고기 패티 두 장에 빅맥®만의 특별한 소스.
+        입안에서 살살 녹는 치즈와 신선한 양상추, 양파, 그리고 피클까지.
+        50년 넘게 전 세계인의 입맛을 사로 잡은 버거의 대명사.
+    </description>
+    <thumbnail>맥도날드/빅맥.png</thumbnail>
+    <variants>
+        <variant name="단품">
+            <price>4600</price>
+        </variant>
+        <variant name="세트">
+            <price>5900</price>
+        </variant>
+    </variants>
+    <nutrition-facts>
+        <weight>223</weight>
+        <calories>512</calories>
+        <sugars>7</sugars>
+        <protein>27</protein>
+        <sodium>892</sodium>
+        <saturated-fat>11</saturated-fat>
+    </nutrition-facts>
+</burger>
